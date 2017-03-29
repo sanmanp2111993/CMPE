@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+void bubble(int*,int);
+
+ main()
+{   cout << "This program arranges the values in ascending or descending order "
+         << "depending on  the user\n";
+    cout << "Terminate the loop by entering "
+         << "a negative number\n";
+    cout << endl;
+       int a[10],size=10,*ptr;
+
+       for(int num=0;num<size;num++)
+       {
+       cout<<"Enter element no : "<<num+1<<endl;
+       cin>>a[num];
+        if (a[num] < 0)
+        {
+            break;
+        }
+       }
+       ptr=a;
+       bubble(ptr,size);
+}
+        void bubble(int *ptr,int size)
+       {
+              int i,j,temp;
+
+              for(i=0;i<size-1;i++)
+              {
+                     for(j=0;j<size-i-1;j++)
+                     {
+                    
+                           if(*(ptr+j)>*(ptr+j+1))
+                           {
+                           temp=*(ptr+j);
+                           *(ptr+j)=*(ptr+j+1);
+                           *(ptr+j+1)=temp;
+                          
+                           }
+                    
+                     }
+              }
+			  int x = 0;
+cout<<"Enter whether the numbers should be displayed in (1) Ascending Order or (2) Descending Order: "<<endl;
+cin>> x;
+if ( x == 1){
+
+
+              for(i=0;i<size;i++)
+              {
+              cout<<*(ptr+i)<<", ";
+              }
+   }
+              else 
+			 {
+			 
+			
+			  	for(i=size-1;i >= 0;i--)
+			  	{
+			  		cout<<*(ptr+i)<<", ";
+				  }
+		}
+       };

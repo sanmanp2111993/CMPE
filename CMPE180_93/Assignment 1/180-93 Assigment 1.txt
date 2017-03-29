@@ -1,0 +1,101 @@
+#include <cstdio>
+#include <cstdlib>
+#include <iostream>
+using namespace std;
+
+int Array(int a[], int maxNumElements);
+
+void showArray(int a[], int numElements);
+int main(int nNumberofArgs, char* pszArgs[])
+{
+    
+    cout << "This program arranges the values entered "
+         << "by the user in Ascending/descending order\n";
+    cout << "Terminate the loop by entering "
+         << "a negative number\n";
+    cout << endl;
+    
+    int inputValues[128];
+    int numberOfValues = Array(inputValues, 128);
+    cout<<"\nNo of values = " << numberOfValues; 
+    
+    showArray(inputValues, numberOfValues);
+	    
+    cout << "Press Enter to continue..." << endl;
+    cin.ignore(10, '\n');
+    cin.get();
+    return 0;
+}
+
+int Array(int a[], int maxNumElements)
+{
+    int numberOfValues;
+    for(numberOfValues = 0;
+        numberOfValues < maxNumElements;
+        numberOfValues++)
+    {
+        
+        int integerValue;
+        cout << "Enter next number: ";
+        cin  >> integerValue;
+        // if number is -ve...
+        if (integerValue < 0)
+        {
+            // ...then exit
+            break;
+        }
+        // ... otherwise store the number into storage array
+        a[numberOfValues] = integerValue;
+    }
+    
+    return numberOfValues;
+ }
+
+void showArray(int a[], int numElements)
+{
+    cout << "\n\nThe value of the array is:" << endl;
+    for (int i = 0; i < numElements; i++)
+    {
+        cout << i << ": " << a[i] << endl;
+    }
+    cout << endl;
+    
+    int temp;
+        for(int i=0; i < numElements; i++){
+ 
+            for(int j=1; j < (numElements - i); j++){
+                if(a[j-1] > a[j]){
+                    temp=a[j-1];
+                    a[j-1] = a[j];
+                    a[j] = temp;
+                }
+            }
+    
+}
+int x = 0;
+cout<<"Enter whether the numbers should be displayed in (1) Ascending Order or (2) Descending Order: "<<endl;
+cin>> x;
+if ( x == 1)
+{
+	
+	for (int i = 0; i < numElements; i++)
+    {
+        cout << i << ": " << a[i] << endl;
+    }
+    cout << endl;
+}
+
+
+else
+
+{
+
+cout << "The value of the array is:" << endl;
+    for (int i = numElements - 1; i >= 0; i--)
+    {
+        cout << i << ": " << a[i] << endl;
+    }
+    cout << endl;
+}
+
+}
