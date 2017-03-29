@@ -1,0 +1,16 @@
+History of updates to CMSISv2p00_LPC11Uxx
+=========================================
+
+8 April 2011
+------------
+Minor fix to LPC11Uxx.h to change LPC_CT32B1_BASE from 
+0x40014000 to 0x40018000
+
+23 March 2011
+-------------
+LPC11Uxx CMSIS 2.0 library project using ARM 
+Cortex-M0 CMSIS files as supplied in ARM's CMSIS 2.0
+December 2010 release, together with device/board 
+specific files from NXP.
+
+Note files are built -Os for both Debug and Release

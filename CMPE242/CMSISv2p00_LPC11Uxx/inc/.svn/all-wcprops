@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/CMSISv2p00_LPC11Uxx/inc
+END
+system_LPC11Uxx.h
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/CMSISv2p00_LPC11Uxx/inc/system_LPC11Uxx.h
+END
+core_cmFunc.h
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/CMSISv2p00_LPC11Uxx/inc/core_cmFunc.h
+END
+LPC11Uxx.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/CMSISv2p00_LPC11Uxx/inc/LPC11Uxx.h
+END
+power_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/CMSISv2p00_LPC11Uxx/inc/power_api.h
+END
+core_cm0.h
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/CMSISv2p00_LPC11Uxx/inc/core_cm0.h
+END
+core_cmInstr.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/CMSISv2p00_LPC11Uxx/inc/core_cmInstr.h
+END

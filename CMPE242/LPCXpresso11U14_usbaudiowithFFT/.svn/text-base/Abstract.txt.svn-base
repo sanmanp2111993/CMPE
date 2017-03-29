@@ -1,0 +1,10 @@
+This project demonstrates an USB Audio Device, FFT Processing and 
+FFT Result (UART)
+
+The USB Audio Device is recognized by the host PC running
+Windows which will load a generic Audio driver and add a
+speaker which can be used for sound playback on the PC.
+
+The FFT data was processed each frame and the result was sent back 
+to PC via UART. 
+

@@ -1,0 +1,1045 @@
+Archive member included because of file (symbol)
+
+c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc11u.o (__main)
+c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ctype.o)
+                              c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o) (_ctype_init)
+c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+                              c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o) (_init_alloc)
+c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+                              ./src/system_LPC11Uxx.o (__aeabi_uidiv)
+
+Allocating common symbols
+Common symbol       size              file
+
+USB_AltSetting      0x4               ./src/usbcore.o
+DataIn              0x2               ./src/usbdmain.o
+EP0Buf              0x40              ./src/usbcore.o
+USB_EndPointMask    0x4               ./src/usbcore.o
+USB_DeviceAddress   0x1               ./src/usbcore.o
+DataBuf             0x200             ./src/usbdmain.o
+USB_EndPointStall   0x4               ./src/usbcore.o
+temp                0x100             ./src/fct.o
+DataRun             0x1               ./src/usbdmain.o
+Mute                0x1               ./src/usbdmain.o
+FFTBuf              0x108             ./src/usbhw.o
+VUM                 0x4               ./src/usbdmain.o
+__stdin             0x28              ./src/Retarget.o
+PotVal              0x2               ./src/usbdmain.o
+USB_EndPointHalt    0x4               ./src/usbcore.o
+EPList              0xa0              ./src/usbhw.o
+Volume              0x4               ./src/usbdmain.o
+DataOut             0x2               ./src/usbdmain.o
+count               0x4               ./src/usbhw.o
+USB_Configuration   0x1               ./src/usbcore.o
+SetupPacket         0x8               ./src/usbcore.o
+USB_NumInterfaces   0x1               ./src/usbcore.o
+__stdout            0x28              ./src/Retarget.o
+__heaps             0x4               c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+__end_of_heap       0x4               c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+Tick                0x4               ./src/usbdmain.o
+EP0Data             0x8               ./src/usbcore.o
+USB_DeviceStatus    0x2               ./src/usbcore.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/Retarget.o
+ .data          0x00000000        0x0 ./src/Retarget.o
+ .bss           0x00000000        0x0 ./src/Retarget.o
+ .text.fputc    0x00000000        0x0 ./src/Retarget.o
+ .text._ttywrch
+                0x00000000        0x0 ./src/Retarget.o
+ .text.fgetc    0x00000000        0x0 ./src/Retarget.o
+ .text._sys_exit
+                0x00000000        0x0 ./src/Retarget.o
+ COMMON         0x00000000        0x0 ./src/Retarget.o
+ .text          0x00000000        0x0 ./src/adcuser.o
+ .data          0x00000000        0x0 ./src/adcuser.o
+ .bss           0x00000000        0x0 ./src/adcuser.o
+ .text          0x00000000        0x0 ./src/clkconfig.o
+ .data          0x00000000        0x0 ./src/clkconfig.o
+ .bss           0x00000000        0x0 ./src/clkconfig.o
+ .text.WDT_CLK_Setup
+                0x00000000        0x0 ./src/clkconfig.o
+ .text.CLKOUT_Setup
+                0x00000000        0x0 ./src/clkconfig.o
+ .text          0x00000000        0x0 ./src/core_cm0.o
+ .data          0x00000000        0x0 ./src/core_cm0.o
+ .bss           0x00000000        0x0 ./src/core_cm0.o
+ .text          0x00000000        0x0 ./src/cos.o
+ .data          0x00000000        0x0 ./src/cos.o
+ .bss           0x00000000        0x0 ./src/cos.o
+ .rodata.ct     0x00000000        0x0 ./src/cos.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc11u.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc11u.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc11u.o
+ .text          0x00000000        0x0 ./src/fct.o
+ .data          0x00000000        0x0 ./src/fct.o
+ .bss           0x00000000        0x0 ./src/fct.o
+ .text.FCT_fixed
+                0x00000000        0x0 ./src/fct.o
+ .text.bit_reserve_f
+                0x00000000        0x0 ./src/fct.o
+ .text.pre_align_f
+                0x00000000        0x0 ./src/fct.o
+ .text.P_FCT_f  0x00000000        0x0 ./src/fct.o
+ .text.post_add_f
+                0x00000000        0x0 ./src/fct.o
+ COMMON         0x00000000        0x0 ./src/fct.o
+ .text          0x00000000        0x0 ./src/gpio.o
+ .data          0x00000000        0x0 ./src/gpio.o
+ .bss           0x00000000        0x0 ./src/gpio.o
+ .text.GPIOSetFlexInterrupt
+                0x00000000        0x0 ./src/gpio.o
+ .rodata.GPIOSetFlexInterrupt
+                0x00000000        0x0 ./src/gpio.o
+ .text.NVIC_EnableIRQ
+                0x00000000        0x0 ./src/gpio.o
+ .text.GPIOFlexIntEnable
+                0x00000000        0x0 ./src/gpio.o
+ .text.GPIOFlexIntDisable
+                0x00000000        0x0 ./src/gpio.o
+ .text.GPIOFlexIntStatus
+                0x00000000        0x0 ./src/gpio.o
+ .text.GPIOFlexIntClear
+                0x00000000        0x0 ./src/gpio.o
+ .text.GPIOSetGroupedInterrupt
+                0x00000000        0x0 ./src/gpio.o
+ .text.NVIC_ClearPendingIRQ
+                0x00000000        0x0 ./src/gpio.o
+ .text.GPIOGetPinValue
+                0x00000000        0x0 ./src/gpio.o
+ .text          0x00000000        0x0 ./src/nmi.o
+ .data          0x00000000        0x0 ./src/nmi.o
+ .bss           0x00000000        0x0 ./src/nmi.o
+ .text          0x00000000        0x0 ./src/system_LPC11Uxx.o
+ .data          0x00000000        0x0 ./src/system_LPC11Uxx.o
+ .bss           0x00000000        0x0 ./src/system_LPC11Uxx.o
+ .text          0x00000000        0x0 ./src/usbcore.o
+ .data          0x00000000        0x0 ./src/usbcore.o
+ .bss           0x00000000        0x0 ./src/usbcore.o
+ .text          0x00000000        0x0 ./src/usbdesc.o
+ .data          0x00000000        0x0 ./src/usbdesc.o
+ .bss           0x00000000        0x0 ./src/usbdesc.o
+ .text          0x00000000        0x0 ./src/usbdmain.o
+ .data          0x00000000        0x0 ./src/usbdmain.o
+ .bss           0x00000000        0x0 ./src/usbdmain.o
+ .text          0x00000000        0x0 ./src/usbhw.o
+ .data          0x00000000        0x0 ./src/usbhw.o
+ .bss           0x00000000        0x0 ./src/usbhw.o
+ .text.USB_WakeUp
+                0x00000000        0x0 ./src/usbhw.o
+ .text.USB_GetFrame
+                0x00000000        0x0 ./src/usbhw.o
+ .text          0x00000000        0x0 ./src/usbuser.o
+ .data          0x00000000        0x0 ./src/usbuser.o
+ .bss           0x00000000        0x0 ./src/usbuser.o
+ .text.USB_EndPoint2
+                0x00000000        0x0 ./src/usbuser.o
+ .text.USB_EndPoint3
+                0x00000000        0x0 ./src/usbuser.o
+ .text.USB_EndPoint4
+                0x00000000        0x0 ./src/usbuser.o
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ctype.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .text._start_module__init_alloc
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .text._end_module__init_alloc
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_lmul
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_llsl
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_llsr
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_lasr
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_lcmp
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_ulcmp
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_uread4
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_uread8
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_uwrite4
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_uwrite8
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_memcpy
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_memcpy4
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_memmove
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_memmove4
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_memset
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_memset4
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_memclr
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_memclr4
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_idiv
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__bhs_idivmod
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__aeabi_ldiv0
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__bhs_uldivmod
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+ .text.__bhs_ldivmod
+                0x00000000        0x0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc4          0x10000000         0x00001000         xrw
+RamUsb2          0x20004000         0x00000800         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/Retarget.o
+LOAD ./src/adcuser.o
+LOAD ./src/clkconfig.o
+LOAD ./src/core_cm0.o
+LOAD ./src/cos.o
+LOAD ./src/cr_startup_lpc11u.o
+LOAD ./src/fct.o
+LOAD ./src/gpio.o
+LOAD ./src/nmi.o
+LOAD ./src/system_LPC11Uxx.o
+LOAD ./src/usbcore.o
+LOAD ./src/usbdesc.o
+LOAD ./src/usbdmain.o
+LOAD ./src/usbhw.o
+LOAD ./src/usbuser.o
+LOAD C:\Users\andy.rikin\Documents\lpcxpresso_3.6.3_317\workspace\CMSISv2p00_LPC11Uxx\Debug\libCMSISv2p00_LPC11Uxx.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a
+END GROUP
+                0x00008000                __top_MFlash32 = 0x8000
+                0x10001000                __top_RamLoc4 = 0x10001000
+                0x20004800                __top_RamUsb2 = 0x20004800
+
+.text           0x00000000     0x31b8
+ FILL mask 0xff
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./src/cr_startup_lpc11u.o
+                0x00000000                g_pfnVectors
+                0x000000c0                . = ALIGN (0x4)
+                0x000000c0                __section_table_start = .
+                0x000000c0                __data_section_table = .
+                0x000000c0        0x4 LONG 0x31b8 LOADADDR (.data)
+                0x000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000c8        0x4 LONG 0x20c SIZEOF (.data)
+                0x000000cc        0x4 LONG 0x31b8 LOADADDR (.data_RAM2)
+                0x000000d0        0x4 LONG 0x20004000 ADDR (.data_RAM2)
+                0x000000d4        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000d8                __data_section_table_end = .
+                0x000000d8                __bss_section_table = .
+                0x000000d8        0x4 LONG 0x1000020c ADDR (.bss)
+                0x000000dc        0x4 LONG 0x4dc SIZEOF (.bss)
+                0x000000e0        0x4 LONG 0x20004000 ADDR (.bss_RAM2)
+                0x000000e4        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000e8                __bss_section_table_end = .
+                0x000000e8                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000e8       0x84 ./src/cr_startup_lpc11u.o
+                0x0000011c                SVCall_Handler
+                0x00000118                HardFault_Handler
+                0x00000124                SysTick_Handler
+                0x00000120                PendSV_Handler
+                0x00000114                NMI_Handler
+                0x00000128                UART_IRQHandler
+                0x00000128                TIMER32_0_IRQHandler
+                0x00000100                bss_init
+                0x00000128                TIMER32_1_IRQHandler
+                0x00000128                IntDefaultHandler
+                0x00000128                SSP0_IRQHandler
+                0x00000128                USBWakeup_IRQHandler
+                0x000000e8                data_init
+                0x00000128                TIMER16_1_IRQHandler
+                0x00000128                USB_FIQHandler
+                0x00000128                ADC_IRQHandler
+                0x00000128                SSP1_IRQHandler
+                0x00000128                BOD_IRQHandler
+                0x00000128                I2C_IRQHandler
+                0x00000128                WDT_IRQHandler
+                0x0000012c                ResetISR
+                0x00000128                FMC_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x0000016c      0x190 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/usbdmain.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.ADC_IF_GetRequest
+                0x00000300      0x16c ./src/adcuser.o
+                0x00000300                ADC_IF_GetRequest
+ .text.ADC_IF_SetRequest
+                0x0000046c       0x88 ./src/adcuser.o
+                0x0000046c                ADC_IF_SetRequest
+ .text.ADC_EP_GetRequest
+                0x000004f4        0xc ./src/adcuser.o
+                0x000004f4                ADC_EP_GetRequest
+ .text.ADC_EP_SetRequest
+                0x00000500        0xc ./src/adcuser.o
+                0x00000500                ADC_EP_SetRequest
+ .text.FLEX_INT0_IRQHandler
+                0x0000050c       0x9c ./src/gpio.o
+                0x0000050c                FLEX_INT0_IRQHandler
+ .text.FLEX_INT1_IRQHandler
+                0x000005a8       0x8c ./src/gpio.o
+                0x000005a8                FLEX_INT1_IRQHandler
+ .text.FLEX_INT2_IRQHandler
+                0x00000634       0x8c ./src/gpio.o
+                0x00000634                FLEX_INT2_IRQHandler
+ .text.FLEX_INT3_IRQHandler
+                0x000006c0       0x8c ./src/gpio.o
+                0x000006c0                FLEX_INT3_IRQHandler
+ .text.FLEX_INT4_IRQHandler
+                0x0000074c       0x8c ./src/gpio.o
+                0x0000074c                FLEX_INT4_IRQHandler
+ .text.FLEX_INT5_IRQHandler
+                0x000007d8       0x8c ./src/gpio.o
+                0x000007d8                FLEX_INT5_IRQHandler
+ .text.FLEX_INT6_IRQHandler
+                0x00000864       0x8c ./src/gpio.o
+                0x00000864                FLEX_INT6_IRQHandler
+ .text.FLEX_INT7_IRQHandler
+                0x000008f0       0x8c ./src/gpio.o
+                0x000008f0                FLEX_INT7_IRQHandler
+ .text.GINT0_IRQHandler
+                0x0000097c       0x60 ./src/gpio.o
+                0x0000097c                GINT0_IRQHandler
+ .text.GINT1_IRQHandler
+                0x000009dc       0x60 ./src/gpio.o
+                0x000009dc                GINT1_IRQHandler
+ .text.GPIOInit
+                0x00000a3c       0x30 ./src/gpio.o
+                0x00000a3c                GPIOInit
+ .text.GPIOSetBitValue
+                0x00000a6c       0x4c ./src/gpio.o
+                0x00000a6c                GPIOSetBitValue
+ .text.GPIOSetDir
+                0x00000ab8       0x70 ./src/gpio.o
+                0x00000ab8                GPIOSetDir
+ .text.SystemCoreClockUpdate
+                0x00000b28      0x1f4 ./src/system_LPC11Uxx.o
+                0x00000b28                SystemCoreClockUpdate
+ .text.SystemInit
+                0x00000d1c      0x14c ./src/system_LPC11Uxx.o
+                0x00000d1c                SystemInit
+ .text.USB_ResetCore
+                0x00000e68       0x48 ./src/usbcore.o
+                0x00000e68                USB_ResetCore
+ .text.USB_SetupStage
+                0x00000eb0       0x18 ./src/usbcore.o
+                0x00000eb0                USB_SetupStage
+ .text.USB_DataInStage
+                0x00000ec8       0x54 ./src/usbcore.o
+                0x00000ec8                USB_DataInStage
+ .text.USB_DataOutStage
+                0x00000f1c       0x3c ./src/usbcore.o
+                0x00000f1c                USB_DataOutStage
+ .text.USB_StatusInStage
+                0x00000f58       0x14 ./src/usbcore.o
+                0x00000f58                USB_StatusInStage
+ .text.USB_StatusOutStage
+                0x00000f6c       0x18 ./src/usbcore.o
+                0x00000f6c                USB_StatusOutStage
+ .text.USB_ReqGetStatus
+                0x00000f84      0x12c ./src/usbcore.o
+                0x00000f84                USB_ReqGetStatus
+ .text.USB_ReqSetClrFeature
+                0x000010b0      0x15c ./src/usbcore.o
+                0x000010b0                USB_ReqSetClrFeature
+ .text.USB_ReqSetAddress
+                0x0000120c       0x40 ./src/usbcore.o
+                0x0000120c                USB_ReqSetAddress
+ .text.USB_ReqGetDescriptor
+                0x0000124c      0x13c ./src/usbcore.o
+                0x0000124c                USB_ReqGetDescriptor
+ .text.USB_ReqGetConfiguration
+                0x00001388       0x3c ./src/usbcore.o
+                0x00001388                USB_ReqGetConfiguration
+ .text.USB_ReqSetConfiguration
+                0x000013c4      0x260 ./src/usbcore.o
+                0x000013c4                USB_ReqSetConfiguration
+ .text.USB_ReqGetInterface
+                0x00001624       0x64 ./src/usbcore.o
+                0x00001624                USB_ReqGetInterface
+ .text.USB_ReqSetInterface
+                0x00001688      0x1c0 ./src/usbcore.o
+                0x00001688                USB_ReqSetInterface
+ .text.USB_EndPoint0
+                0x00001848      0x2d8 ./src/usbcore.o
+                0x00001848                USB_EndPoint0
+ .text.get_potval
+                0x00001b20        0x8 ./src/usbdmain.o
+                0x00001b20                get_potval
+ .text.TIMER16_0_IRQHandler
+                0x00001b28      0x14c ./src/usbdmain.o
+                0x00001b28                TIMER16_0_IRQHandler
+ .text.UART_Init
+                0x00001c74       0x64 ./src/usbdmain.o
+                0x00001c74                UART_Init
+ .text.main     0x00001cd8       0xe4 ./src/usbdmain.o
+                0x00001cd8                main
+ .text.EPAdr    0x00001dbc       0x2c ./src/usbhw.o
+ .text.USBIOClkConfig
+                0x00001de8       0x6c ./src/usbhw.o
+                0x00001de8                USBIOClkConfig
+ .text.USB_GetEPCmdStatusPtr
+                0x00001e54       0x30 ./src/usbhw.o
+                0x00001e54                USB_GetEPCmdStatusPtr
+ .text.USB_EPInit
+                0x00001e84      0x1a0 ./src/usbhw.o
+                0x00001e84                USB_EPInit
+ .text.USB_Init
+                0x00002024       0x18 ./src/usbhw.o
+                0x00002024                USB_Init
+ .text.NVIC_EnableIRQ
+                0x0000203c       0x28 ./src/usbhw.o
+ .text.USB_Connect
+                0x00002064       0x38 ./src/usbhw.o
+                0x00002064                USB_Connect
+ .text.USB_Reset
+                0x0000209c       0x40 ./src/usbhw.o
+                0x0000209c                USB_Reset
+ .text.USB_Suspend
+                0x000020dc        0x8 ./src/usbhw.o
+                0x000020dc                USB_Suspend
+ .text.USB_Resume
+                0x000020e4        0x8 ./src/usbhw.o
+                0x000020e4                USB_Resume
+ .text.USB_WakeUpCfg
+                0x000020ec       0x10 ./src/usbhw.o
+                0x000020ec                USB_WakeUpCfg
+ .text.USB_SetAddress
+                0x000020fc       0x34 ./src/usbhw.o
+                0x000020fc                USB_SetAddress
+ .text.USB_Configure
+                0x00002130       0x30 ./src/usbhw.o
+                0x00002130                USB_Configure
+ .text.USB_ConfigEP
+                0x00002160       0x10 ./src/usbhw.o
+                0x00002160                USB_ConfigEP
+ .text.USB_DirCtrlEP
+                0x00002170       0x10 ./src/usbhw.o
+                0x00002170                USB_DirCtrlEP
+ .text.USB_DeactivateEP
+                0x00002180       0x44 ./src/usbhw.o
+                0x00002180                USB_DeactivateEP
+ .text.USB_EnableEP
+                0x000021c4       0xc4 ./src/usbhw.o
+                0x000021c4                USB_EnableEP
+ .text.USB_DisableEP
+                0x00002288       0x6c ./src/usbhw.o
+                0x00002288                USB_DisableEP
+ .text.USB_ResetEP
+                0x000022f4       0x70 ./src/usbhw.o
+                0x000022f4                USB_ResetEP
+ .text.USB_SetStallEP
+                0x00002364       0xcc ./src/usbhw.o
+                0x00002364                USB_SetStallEP
+ .text.USB_ClrStallEP
+                0x00002430      0x10c ./src/usbhw.o
+                0x00002430                USB_ClrStallEP
+ .text.USB_ReadSetupEP
+                0x0000253c      0x120 ./src/usbhw.o
+                0x0000253c                USB_ReadSetupEP
+ .text.USB_ReadEP
+                0x0000265c      0x228 ./src/usbhw.o
+                0x0000265c                USB_ReadEP
+ .text.USB_WriteEP
+                0x00002884      0x1c0 ./src/usbhw.o
+                0x00002884                USB_WriteEP
+ .text.USB_IRQHandler
+                0x00002a44      0x150 ./src/usbhw.o
+                0x00002a44                USB_IRQHandler
+ .text.USB_Reset_Event
+                0x00002b94        0xc ./src/usbuser.o
+                0x00002b94                USB_Reset_Event
+ .text.USB_SOF_Event
+                0x00002ba0       0x74 ./src/usbuser.o
+                0x00002ba0                USB_SOF_Event
+ .text.USB_EndPoint1
+                0x00002c14       0x10 ./src/usbuser.o
+                0x00002c14                USB_EndPoint1
+ .text.__weak_main
+                0x00002c24       0x14 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                0x00002c24                __main
+                0x00002c24                __weak_main
+ .text          0x00002c38      0x338 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ctype.o)
+                0x00002c38                _start_module_ctype
+                0x00002d0c                islower
+                0x00002dfc                tolower
+                0x00002d5c                ispunct
+                0x00002d84                isspace
+                0x00002f64                _end_module_ctype
+                0x00002dd4                isxdigit
+                0x00002efc                _ctype_init
+                0x00002dac                isupper
+                0x00002c6c                isalpha
+                0x00002ce4                isgraph
+                0x00002c44                isalnum
+                0x00002d34                isprint
+                0x00002e7c                _set_ctype_8859
+                0x00002cbc                isdigit
+                0x00002c94                iscntrl
+                0x00002e3c                toupper
+ .text._init_alloc
+                0x00002f70       0x14 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+                0x00002f70                _init_alloc
+ .text.__aeabi_idiv0
+                0x00002f84        0x4 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+                0x00002f84                __aeabi_idiv0
+ .text.__bhs_uidivmod
+                0x00002f88       0x88 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+                0x00002f88                __bhs_uidivmod
+ .text.__aeabi_uidiv
+                0x00003010       0x18 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+                0x00003010                __aeabi_uidiv
+ *(.rodata .rodata.*)
+ .rodata.VolMin
+                0x00003028        0x2 ./src/adcuser.o
+                0x00003028                VolMin
+ .rodata.VolMax
+                0x0000302a        0x2 ./src/adcuser.o
+                0x0000302a                VolMax
+ .rodata.VolRes
+                0x0000302c        0x2 ./src/adcuser.o
+                0x0000302c                VolRes
+ *fill*         0x0000302e        0x2 00
+ .rodata.SystemCoreClockUpdate
+                0x00003030       0x40 ./src/system_LPC11Uxx.o
+ .rodata.USB_EndPoint0
+                0x00003070       0x50 ./src/usbcore.o
+ .rodata.USB_DeviceDescriptor
+                0x000030c0       0x12 ./src/usbdesc.o
+                0x000030c0                USB_DeviceDescriptor
+ .rodata.USB_ConfigDescriptor
+                0x000030d2       0x6e ./src/usbdesc.o
+                0x000030d2                USB_ConfigDescriptor
+ .rodata.USB_StringDescriptor
+                0x00003140       0x64 ./src/usbdesc.o
+                0x00003140                USB_StringDescriptor
+ .rodata.USB_P_EP
+                0x000031a4       0x14 ./src/usbuser.o
+                0x000031a4                USB_P_EP
+                0x000031b8                . = ALIGN (0x4)
+
+.glue_7         0x000031b8        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x000031b8        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x000031b8        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000031b8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000031b8                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000031b8                __exidx_end = .
+                0x000031b8                _etext = .
+
+.data_RAM2      0x20004000        0x0 load address 0x000031b8
+ FILL mask 0xff
+ *(.data.$RAM2*)
+ *(.data.$RamUsb2*)
+                0x20004000                . = ALIGN (0x4)
+
+.uninit_RESERVED
+ *(.bss.$RESERVED*)
+
+.data           0x10000000      0x20c load address 0x000031b8
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.VolCur   0x10000000        0x2 ./src/adcuser.o
+                0x10000000                VolCur
+ *fill*         0x10000002        0x2 00
+ .data.SystemCoreClock
+                0x10000004        0x4 ./src/system_LPC11Uxx.o
+                0x10000004                SystemCoreClock
+ .data          0x10000008      0x204 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ctype.o)
+                0x10000008                __ctype
+                0x1000020c                . = ALIGN (0x4)
+                0x1000020c                _edata = .
+
+.bss_RAM2       0x20004000        0x0
+ *(.bss.$RAM2*)
+ *(.bss.$RamUsb2*)
+                0x20004000                . = ALIGN (0x4)
+
+.bss            0x1000020c      0x4dc
+                0x1000020c                _bss = .
+ *(.bss*)
+ .bss.flex_int0_counter
+                0x1000020c        0x4 ./src/gpio.o
+                0x1000020c                flex_int0_counter
+ .bss.flex_int1_counter
+                0x10000210        0x4 ./src/gpio.o
+                0x10000210                flex_int1_counter
+ .bss.flex_int2_counter
+                0x10000214        0x4 ./src/gpio.o
+                0x10000214                flex_int2_counter
+ .bss.flex_int3_counter
+                0x10000218        0x4 ./src/gpio.o
+                0x10000218                flex_int3_counter
+ .bss.flex_int4_counter
+                0x1000021c        0x4 ./src/gpio.o
+                0x1000021c                flex_int4_counter
+ .bss.flex_int5_counter
+                0x10000220        0x4 ./src/gpio.o
+                0x10000220                flex_int5_counter
+ .bss.flex_int6_counter
+                0x10000224        0x4 ./src/gpio.o
+                0x10000224                flex_int6_counter
+ .bss.flex_int7_counter
+                0x10000228        0x4 ./src/gpio.o
+                0x10000228                flex_int7_counter
+ .bss.gint0_counter
+                0x1000022c        0x4 ./src/gpio.o
+                0x1000022c                gint0_counter
+ .bss.gint1_counter
+                0x10000230        0x4 ./src/gpio.o
+                0x10000230                gint1_counter
+ .bss.flex_int0_level_counter
+                0x10000234        0x4 ./src/gpio.o
+                0x10000234                flex_int0_level_counter
+ .bss.flex_int0_rising_edge_counter
+                0x10000238        0x4 ./src/gpio.o
+                0x10000238                flex_int0_rising_edge_counter
+ .bss.flex_int0_falling_edge_counter
+                0x1000023c        0x4 ./src/gpio.o
+                0x1000023c                flex_int0_falling_edge_counter
+ .bss.flex_int1_level_counter
+                0x10000240        0x4 ./src/gpio.o
+                0x10000240                flex_int1_level_counter
+ .bss.flex_int1_rising_edge_counter
+                0x10000244        0x4 ./src/gpio.o
+                0x10000244                flex_int1_rising_edge_counter
+ .bss.flex_int1_falling_edge_counter
+                0x10000248        0x4 ./src/gpio.o
+                0x10000248                flex_int1_falling_edge_counter
+ .bss.flex_int2_level_counter
+                0x1000024c        0x4 ./src/gpio.o
+                0x1000024c                flex_int2_level_counter
+ .bss.flex_int2_rising_edge_counter
+                0x10000250        0x4 ./src/gpio.o
+                0x10000250                flex_int2_rising_edge_counter
+ .bss.flex_int2_falling_edge_counter
+                0x10000254        0x4 ./src/gpio.o
+                0x10000254                flex_int2_falling_edge_counter
+ .bss.flex_int3_level_counter
+                0x10000258        0x4 ./src/gpio.o
+                0x10000258                flex_int3_level_counter
+ .bss.flex_int3_rising_edge_counter
+                0x1000025c        0x4 ./src/gpio.o
+                0x1000025c                flex_int3_rising_edge_counter
+ .bss.flex_int3_falling_edge_counter
+                0x10000260        0x4 ./src/gpio.o
+                0x10000260                flex_int3_falling_edge_counter
+ .bss.flex_int4_level_counter
+                0x10000264        0x4 ./src/gpio.o
+                0x10000264                flex_int4_level_counter
+ .bss.flex_int4_rising_edge_counter
+                0x10000268        0x4 ./src/gpio.o
+                0x10000268                flex_int4_rising_edge_counter
+ .bss.flex_int4_falling_edge_counter
+                0x1000026c        0x4 ./src/gpio.o
+                0x1000026c                flex_int4_falling_edge_counter
+ .bss.flex_int5_level_counter
+                0x10000270        0x4 ./src/gpio.o
+                0x10000270                flex_int5_level_counter
+ .bss.flex_int5_rising_edge_counter
+                0x10000274        0x4 ./src/gpio.o
+                0x10000274                flex_int5_rising_edge_counter
+ .bss.flex_int5_falling_edge_counter
+                0x10000278        0x4 ./src/gpio.o
+                0x10000278                flex_int5_falling_edge_counter
+ .bss.flex_int6_level_counter
+                0x1000027c        0x4 ./src/gpio.o
+                0x1000027c                flex_int6_level_counter
+ .bss.flex_int6_rising_edge_counter
+                0x10000280        0x4 ./src/gpio.o
+                0x10000280                flex_int6_rising_edge_counter
+ .bss.flex_int6_falling_edge_counter
+                0x10000284        0x4 ./src/gpio.o
+                0x10000284                flex_int6_falling_edge_counter
+ .bss.flex_int7_level_counter
+                0x10000288        0x4 ./src/gpio.o
+                0x10000288                flex_int7_level_counter
+ .bss.flex_int7_rising_edge_counter
+                0x1000028c        0x4 ./src/gpio.o
+                0x1000028c                flex_int7_rising_edge_counter
+ .bss.flex_int7_falling_edge_counter
+                0x10000290        0x4 ./src/gpio.o
+                0x10000290                flex_int7_falling_edge_counter
+ .bss.gint0_level_counter
+                0x10000294        0x4 ./src/gpio.o
+                0x10000294                gint0_level_counter
+ .bss.gint0_edge_counter
+                0x10000298        0x4 ./src/gpio.o
+                0x10000298                gint0_edge_counter
+ .bss.gint1_level_counter
+                0x1000029c        0x4 ./src/gpio.o
+                0x1000029c                gint1_level_counter
+ .bss.gint1_edge_counter
+                0x100002a0        0x4 ./src/gpio.o
+                0x100002a0                gint1_edge_counter
+ .bss.BufferUsed
+                0x100002a4        0x4 ./src/usbhw.o
+                0x100002a4                BufferUsed
+ .bss.EPActiveFlag
+                0x100002a8        0x4 ./src/usbhw.o
+                0x100002a8                EPActiveFlag
+ .bss.SOFIRQCount
+                0x100002ac        0x4 ./src/usbhw.o
+                0x100002ac                SOFIRQCount
+ *(COMMON)
+ COMMON         0x100002b0       0x6a ./src/usbcore.o
+                0x100002b0                USB_AltSetting
+                0x100002b4                EP0Buf
+                0x100002f4                USB_EndPointMask
+                0x100002f8                USB_DeviceAddress
+                0x100002fc                USB_EndPointStall
+                0x10000300                USB_EndPointHalt
+                0x10000304                USB_Configuration
+                0x10000305                SetupPacket
+                0x1000030d                USB_NumInterfaces
+                0x10000310                EP0Data
+                0x10000318                USB_DeviceStatus
+ *fill*         0x1000031a        0x2 00
+ COMMON         0x1000031c      0x218 ./src/usbdmain.o
+                0x1000031c                DataIn
+                0x1000031e                DataBuf
+                0x1000051e                DataRun
+                0x1000051f                Mute
+                0x10000520                VUM
+                0x10000524                PotVal
+                0x10000528                Volume
+                0x1000052c                DataOut
+                0x10000530                Tick
+ COMMON         0x10000534      0x1ac ./src/usbhw.o
+                0x10000534                FFTBuf
+                0x1000063c                EPList
+                0x100006dc                count
+ COMMON         0x100006e0        0x8 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+                0x100006e0                __heaps
+                0x100006e4                __end_of_heap
+                0x100006e8                . = ALIGN (0x4)
+                0x100006e8                _ebss = .
+                0x100006e8                PROVIDE (end, .)
+                0x100006e8                PROVIDE (_pvHeapStart, .)
+                0x10001000                PROVIDE (_vStackTop, (__top_RamLoc4 - 0x0))
+OUTPUT(USBAudiowithFFT.axf elf32-littlearm)
+
+.debug_abbrev   0x00000000     0x1296
+ .debug_abbrev  0x00000000       0xd7 ./src/Retarget.o
+ .debug_abbrev  0x000000d7      0x132 ./src/adcuser.o
+ .debug_abbrev  0x00000209       0xe6 ./src/clkconfig.o
+ .debug_abbrev  0x000002ef       0x2c ./src/core_cm0.o
+ .debug_abbrev  0x0000031b       0x54 ./src/cos.o
+ .debug_abbrev  0x0000036f      0x13b ./src/cr_startup_lpc11u.o
+ .debug_abbrev  0x000004aa       0xd6 ./src/fct.o
+ .debug_abbrev  0x00000580      0x1d3 ./src/gpio.o
+ .debug_abbrev  0x00000753       0x35 ./src/nmi.o
+ .debug_abbrev  0x00000788       0xe4 ./src/system_LPC11Uxx.o
+ .debug_abbrev  0x0000086c      0x1fe ./src/usbcore.o
+ .debug_abbrev  0x00000a6a       0x6c ./src/usbdesc.o
+ .debug_abbrev  0x00000ad6      0x1a3 ./src/usbdmain.o
+ .debug_abbrev  0x00000c79      0x277 ./src/usbhw.o
+ .debug_abbrev  0x00000ef0       0xd3 ./src/usbuser.o
+ .debug_abbrev  0x00000fc3      0x2d3 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+
+.debug_info     0x00000000     0x5fd6
+ .debug_info    0x00000000      0x1f3 ./src/Retarget.o
+ .debug_info    0x000001f3      0x2a8 ./src/adcuser.o
+ .debug_info    0x0000049b      0x5f2 ./src/clkconfig.o
+ .debug_info    0x00000a8d       0x70 ./src/core_cm0.o
+ .debug_info    0x00000afd       0x5a ./src/cos.o
+ .debug_info    0x00000b57      0x266 ./src/cr_startup_lpc11u.o
+ .debug_info    0x00000dbd      0x265 ./src/fct.o
+ .debug_info    0x00001022     0x10dc ./src/gpio.o
+ .debug_info    0x000020fe       0x73 ./src/nmi.o
+ .debug_info    0x00002171      0x5bc ./src/system_LPC11Uxx.o
+ .debug_info    0x0000272d      0x7e5 ./src/usbcore.o
+ .debug_info    0x00002f12       0xf3 ./src/usbdesc.o
+ .debug_info    0x00003005      0xe3d ./src/usbdmain.o
+ .debug_info    0x00003e42     0x12f7 ./src/usbhw.o
+ .debug_info    0x00005139      0x1df ./src/usbuser.o
+ .debug_info    0x00005318      0xcbe c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+
+.debug_line     0x00000000     0x309c
+ .debug_line    0x00000000      0x280 ./src/Retarget.o
+ .debug_line    0x00000280      0x307 ./src/adcuser.o
+ .debug_line    0x00000587      0x2ce ./src/clkconfig.o
+ .debug_line    0x00000855      0x240 ./src/core_cm0.o
+ .debug_line    0x00000a95       0x2d ./src/cos.o
+ .debug_line    0x00000ac2      0x2e3 ./src/cr_startup_lpc11u.o
+ .debug_line    0x00000da5       0xc0 ./src/fct.o
+ .debug_line    0x00000e65      0x4dc ./src/gpio.o
+ .debug_line    0x00001341      0x298 ./src/nmi.o
+ .debug_line    0x000015d9      0x30f ./src/system_LPC11Uxx.o
+ .debug_line    0x000018e8      0x4ce ./src/usbcore.o
+ .debug_line    0x00001db6      0x284 ./src/usbdesc.o
+ .debug_line    0x0000203a      0x3f9 ./src/usbdmain.o
+ .debug_line    0x00002433      0x5da ./src/usbhw.o
+ .debug_line    0x00002a0d      0x30c ./src/usbuser.o
+ .debug_line    0x00002d19      0x383 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+
+.debug_macinfo  0x00000000    0x39a80
+ .debug_macinfo
+                0x00000000     0x14c4 ./src/Retarget.o
+ .debug_macinfo
+                0x000014c4     0x5290 ./src/adcuser.o
+ .debug_macinfo
+                0x00006754     0x45a0 ./src/clkconfig.o
+ .debug_macinfo
+                0x0000acf4     0x2640 ./src/core_cm0.o
+ .debug_macinfo
+                0x0000d334      0xc22 ./src/cos.o
+ .debug_macinfo
+                0x0000df56     0x44c5 ./src/cr_startup_lpc11u.o
+ .debug_macinfo
+                0x0001241b      0xc57 ./src/fct.o
+ .debug_macinfo
+                0x00013072     0x4506 ./src/gpio.o
+ .debug_macinfo
+                0x00017578     0x4494 ./src/nmi.o
+ .debug_macinfo
+                0x0001ba0c     0x4779 ./src/system_LPC11Uxx.o
+ .debug_macinfo
+                0x00020185     0x5951 ./src/usbcore.o
+ .debug_macinfo
+                0x00025ad6     0x53a3 ./src/usbdesc.o
+ .debug_macinfo
+                0x0002ae79     0x5a70 ./src/usbdmain.o
+ .debug_macinfo
+                0x000308e9     0x581d ./src/usbhw.o
+ .debug_macinfo
+                0x00036106     0x397a ./src/usbuser.o
+
+.debug_frame    0x00000000      0xf48
+ .debug_frame   0x00000000       0x90 ./src/Retarget.o
+ .debug_frame   0x00000090       0x88 ./src/adcuser.o
+ .debug_frame   0x00000118       0x50 ./src/clkconfig.o
+ .debug_frame   0x00000168       0xe8 ./src/cr_startup_lpc11u.o
+ .debug_frame   0x00000250       0xb0 ./src/fct.o
+ .debug_frame   0x00000300      0x2a4 ./src/gpio.o
+ .debug_frame   0x000005a4       0x50 ./src/system_LPC11Uxx.o
+ .debug_frame   0x000005f4      0x1e0 ./src/usbcore.o
+ .debug_frame   0x000007d4       0x88 ./src/usbdmain.o
+ .debug_frame   0x0000085c      0x354 ./src/usbhw.o
+ .debug_frame   0x00000bb0       0xc8 ./src/usbuser.o
+ .debug_frame   0x00000c78      0x2d0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+
+.debug_loc      0x00000000     0x2422
+ .debug_loc     0x00000000       0xdc ./src/Retarget.o
+ .debug_loc     0x000000dc       0xc4 ./src/adcuser.o
+ .debug_loc     0x000001a0       0x6e ./src/clkconfig.o
+ .debug_loc     0x0000020e      0x1c0 ./src/cr_startup_lpc11u.o
+ .debug_loc     0x000003ce      0x115 ./src/fct.o
+ .debug_loc     0x000004e3      0x436 ./src/gpio.o
+ .debug_loc     0x00000919       0x6e ./src/system_LPC11Uxx.o
+ .debug_loc     0x00000987      0x309 ./src/usbcore.o
+ .debug_loc     0x00000c90       0xb8 ./src/usbdmain.o
+ .debug_loc     0x00000d48      0x579 ./src/usbhw.o
+ .debug_loc     0x000012c1      0x132 ./src/usbuser.o
+ .debug_loc     0x000013f3     0x102f c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+
+.debug_pubnames
+                0x00000000     0x10ab
+ .debug_pubnames
+                0x00000000       0x5a ./src/Retarget.o
+ .debug_pubnames
+                0x0000005a       0x96 ./src/adcuser.o
+ .debug_pubnames
+                0x000000f0       0x35 ./src/clkconfig.o
+ .debug_pubnames
+                0x00000125       0x19 ./src/cos.o
+ .debug_pubnames
+                0x0000013e       0xc1 ./src/cr_startup_lpc11u.o
+ .debug_pubnames
+                0x000001ff       0x66 ./src/fct.o
+ .debug_pubnames
+                0x00000265      0x60f ./src/gpio.o
+ .debug_pubnames
+                0x00000874       0x4f ./src/system_LPC11Uxx.o
+ .debug_pubnames
+                0x000008c3      0x235 ./src/usbcore.o
+ .debug_pubnames
+                0x00000af8       0x5d ./src/usbdesc.o
+ .debug_pubnames
+                0x00000b55       0xbd ./src/usbdmain.o
+ .debug_pubnames
+                0x00000c12      0x216 ./src/usbhw.o
+ .debug_pubnames
+                0x00000e28       0x8d ./src/usbuser.o
+ .debug_pubnames
+                0x00000eb5      0x1f6 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+
+.debug_aranges  0x00000000      0x510
+ .debug_aranges
+                0x00000000       0x38 ./src/Retarget.o
+ .debug_aranges
+                0x00000038       0x38 ./src/adcuser.o
+ .debug_aranges
+                0x00000070       0x28 ./src/clkconfig.o
+ .debug_aranges
+                0x00000098       0x60 ./src/cr_startup_lpc11u.o
+ .debug_aranges
+                0x000000f8       0x40 ./src/fct.o
+ .debug_aranges
+                0x00000138       0xc8 ./src/gpio.o
+ .debug_aranges
+                0x00000200       0x28 ./src/system_LPC11Uxx.o
+ .debug_aranges
+                0x00000228       0x90 ./src/usbcore.o
+ .debug_aranges
+                0x000002b8       0x38 ./src/usbdmain.o
+ .debug_aranges
+                0x000002f0       0xf0 ./src/usbhw.o
+ .debug_aranges
+                0x000003e0       0x48 ./src/usbuser.o
+ .debug_aranges
+                0x00000428       0xe8 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+
+.debug_ranges   0x00000000      0x590
+ .debug_ranges  0x00000000       0x30 ./src/Retarget.o
+ .debug_ranges  0x00000030       0x30 ./src/adcuser.o
+ .debug_ranges  0x00000060       0x20 ./src/clkconfig.o
+ .debug_ranges  0x00000080       0x58 ./src/cr_startup_lpc11u.o
+ .debug_ranges  0x000000d8       0x38 ./src/fct.o
+ .debug_ranges  0x00000110       0xc0 ./src/gpio.o
+ .debug_ranges  0x000001d0       0x20 ./src/system_LPC11Uxx.o
+ .debug_ranges  0x000001f0       0x88 ./src/usbcore.o
+ .debug_ranges  0x00000278       0x30 ./src/usbdmain.o
+ .debug_ranges  0x000002a8       0xe8 ./src/usbhw.o
+ .debug_ranges  0x00000390       0x40 ./src/usbuser.o
+ .debug_ranges  0x000003d0      0x1c0 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+
+.debug_str      0x00000000     0x1a9b
+ .debug_str     0x00000000      0x134 ./src/Retarget.o
+                                0x15c (size before relaxing)
+ .debug_str     0x00000134      0x150 ./src/adcuser.o
+                                0x209 (size before relaxing)
+ .debug_str     0x00000284      0x29d ./src/clkconfig.o
+                                0x385 (size before relaxing)
+ .debug_str     0x00000521       0x12 ./src/core_cm0.o
+                                 0xea (size before relaxing)
+ .debug_str     0x00000533        0xd ./src/cos.o
+                                 0x6c (size before relaxing)
+ .debug_str     0x00000540      0x132 ./src/cr_startup_lpc11u.o
+                                0x210 (size before relaxing)
+ .debug_str     0x00000672       0x54 ./src/fct.o
+                                 0xc0 (size before relaxing)
+ .debug_str     0x000006c6      0x815 ./src/gpio.o
+                                0xb66 (size before relaxing)
+ .debug_str     0x00000edb        0xd ./src/nmi.o
+                                 0xe5 (size before relaxing)
+ .debug_str     0x00000ee8       0x58 ./src/system_LPC11Uxx.o
+                                0x38d (size before relaxing)
+ .debug_str     0x00000f40      0x3c0 ./src/usbcore.o
+                                0x57d (size before relaxing)
+ .debug_str     0x00001300       0x11 ./src/usbdesc.o
+                                0x130 (size before relaxing)
+ .debug_str     0x00001311      0x292 ./src/usbdmain.o
+                                0x5f9 (size before relaxing)
+ .debug_str     0x000015a3      0x26d ./src/usbhw.o
+                                0xa70 (size before relaxing)
+ .debug_str     0x00001810       0x67 ./src/usbuser.o
+                                0x187 (size before relaxing)
+ .debug_str     0x00001877      0x224 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+                                0x29f (size before relaxing)
+
+.comment        0x00000000      0x331
+ .comment       0x00000000       0x2b ./src/Retarget.o
+ .comment       0x0000002b       0x2b ./src/adcuser.o
+ .comment       0x00000056       0x2b ./src/clkconfig.o
+ .comment       0x00000081       0x2b ./src/core_cm0.o
+ .comment       0x000000ac       0x2b ./src/cos.o
+ .comment       0x000000d7       0x2b ./src/cr_startup_lpc11u.o
+ .comment       0x00000102       0x2b ./src/fct.o
+ .comment       0x0000012d       0x2b ./src/gpio.o
+ .comment       0x00000158       0x2b ./src/nmi.o
+ .comment       0x00000183       0x2b ./src/system_LPC11Uxx.o
+ .comment       0x000001ae       0x2b ./src/usbcore.o
+ .comment       0x000001d9       0x2b ./src/usbdesc.o
+ .comment       0x00000204       0x2b ./src/usbdmain.o
+ .comment       0x0000022f       0x2b ./src/usbhw.o
+ .comment       0x0000025a       0x2b ./src/usbuser.o
+ .comment       0x00000285       0x2b c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .comment       0x000002b0       0x2b c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ctype.o)
+ .comment       0x000002db       0x2b c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .comment       0x00000306       0x2b c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 ./src/Retarget.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/adcuser.o
+ .ARM.attributes
+                0x00000062       0x31 ./src/clkconfig.o
+ .ARM.attributes
+                0x00000093       0x31 ./src/core_cm0.o
+ .ARM.attributes
+                0x000000c4       0x31 ./src/cos.o
+ .ARM.attributes
+                0x000000f5       0x31 ./src/cr_startup_lpc11u.o
+ .ARM.attributes
+                0x00000126       0x31 ./src/fct.o
+ .ARM.attributes
+                0x00000157       0x31 ./src/gpio.o
+ .ARM.attributes
+                0x00000188       0x31 ./src/nmi.o
+ .ARM.attributes
+                0x000001b9       0x31 ./src/system_LPC11Uxx.o
+ .ARM.attributes
+                0x000001ea       0x31 ./src/usbcore.o
+ .ARM.attributes
+                0x0000021b       0x31 ./src/usbdesc.o
+ .ARM.attributes
+                0x0000024c       0x31 ./src/usbdmain.o
+ .ARM.attributes
+                0x0000027d       0x31 ./src/usbhw.o
+ .ARM.attributes
+                0x000002ae       0x31 ./src/usbuser.o
+ .ARM.attributes
+                0x000002df       0x30 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x0000030f       0x30 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ctype.o)
+ .ARM.attributes
+                0x0000033f       0x30 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .ARM.attributes
+                0x0000036f       0x30 c:/nxp/lpcxpresso_3.6.3_317/tools/bin/../lib/gcc/arm-none-eabi/4.3.3/armv6-m\libcr_eabihelpers.a(rtlib.o)

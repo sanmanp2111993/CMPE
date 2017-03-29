@@ -1,0 +1,20 @@
+This project demonstrates an USB Audio Device, FFT Processing and 
+FFT Result (UART)
+
+The USB Audio Device is recognized by the host PC running
+Windows which will load a generic Audio driver and add a
+speaker which can be used for sound playback on the PC.
+
+The FFT data was processed each frame and the result was sent back 
+to PC via UART. 
+
+/*************************************************************************/
+
+Project has been tested with LPCXpresso ver 4.0.6 and ver4.1
+
+Please follow the instructions in the Application Note to setup and debug.
+When the program is flashed on to the target and all other instructions are followed as mentioned in the Application note, 
+the LED on the board will be blinking continuosly. 
+If The LED is not blinking and is continuosly switched on, then it indicates and error indicating that the USB Audio (J8) is not plugged in.
+For more details refer the Application note.
+  

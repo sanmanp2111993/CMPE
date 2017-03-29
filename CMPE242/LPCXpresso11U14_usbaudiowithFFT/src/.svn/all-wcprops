@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src
+END
+gpio.c
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/gpio.c
+END
+cdc.h
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/cdc.h
+END
+usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/usb.h
+END
+usbcore.c
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/usbcore.c
+END
+usbdmain.c
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/usbdmain.c
+END
+gpio.h
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/gpio.h
+END
+audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/audio.h
+END
+usbcore.h
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/usbcore.h
+END
+cr_startup_lpc11u.c
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/cr_startup_lpc11u.c
+END
+fct.c
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/fct.c
+END
+usbcfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/usbcfg.h
+END
+serial.c
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/serial.c
+END
+compiler.h
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/compiler.h
+END
+usbaudio.h
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/usbaudio.h
+END
+serial.h
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/serial.h
+END
+cos.c
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/cos.c
+END
+type.h
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/type.h
+END
+adcuser.c
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/adcuser.c
+END
+cdcuser.c
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/cdcuser.c
+END
+usbdesc.c
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/usbdesc.c
+END
+usbhw.c
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/usbhw.c
+END
+usbuser.c
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/usbuser.c
+END
+adcuser.h
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/adcuser.h
+END
+cdcuser.h
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/cdcuser.h
+END
+usbdesc.h
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/usbdesc.h
+END
+usbhw.h
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/usbhw.h
+END
+usbuser.h
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/lpclib/!svn/ver/7778/trunk/codebundle/examples/LPC11USx/lpcxpresso/USBAudio/LPC11DemoSoftware-LPCXpresso/LPCXpresso11U14_usbaudiowithFFT_usbcdc/src/usbuser.h
+END
